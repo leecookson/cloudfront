@@ -33,4 +33,4 @@ workflows:
     jobs:
       - say-hello
       - gcp-auth-deploy:
-          context: gcp-deploy-context
+          context: GCLOUD_SERVICE_KEY
