@@ -22,6 +22,9 @@ jobs:
           name: Set Google Cloud Project
           command: gcloud config set project cookson-pro-gcp
       - run:
+          name: Clone tf-scripts repo
+          command: git clone https://github.com/leecookson/tf-scripts.git
+      - run:
           name: Deploy Placeholder
           command: echo "Add your GCP deployment command here"
 
